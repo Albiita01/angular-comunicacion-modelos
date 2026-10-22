@@ -8,6 +8,8 @@ import { MenuComponent } from './components/menu-component/menu-component';
 import { ListaProductosComponent } from './components/lista-productos-component/lista-productos-component';
 import { PadreCochesComponent } from './components/padre-coches-component/padre-coches-component';
 import { HijoCocheComponent } from './components/hijo-coche-component/hijo-coche-component';
+import { HijoDeporteComponent } from './components/hijo-deporte-component/hijo-deporte-component';
+import { PadreDeportesComponent } from './components/padre-deportes-component/padre-deportes-component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { HijoCocheComponent } from './components/hijo-coche-component/hijo-coche
     ListaProductosComponent,
     PadreCochesComponent,
     HijoCocheComponent,
+    HijoDeporteComponent,
+    PadreDeportesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],
