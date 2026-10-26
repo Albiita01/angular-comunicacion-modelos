@@ -1,8 +1,10 @@
 <h1>Padre deportes</h1>
+<h2 style="color: orangered">{{mensaje}}</h2>
 <ul>
     @for (deporte of deportes; track deporte) {
     <li>
-        <app-hijo-deporte-component [sport]="deporte"></app-hijo-deporte-component>
+        <app-hijo-deporte-component (seleccionarFavoritoPadre)="seleccionarFavoritoPadre($event)"
+            [sport]="deporte"></app-hijo-deporte-component>
     </li>
     }
 </ul>
